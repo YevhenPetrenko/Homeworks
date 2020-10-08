@@ -1,0 +1,42 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    justify-content: center;
+}
+
+.mainContainer > div{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+
+.mainContainer > div > input{
+    margin: 2px;
+}
+
+.mainContainer > div > label{
+    margin: 2px;
+}
+
+.listStyle > li{
+    margin: 3px;
+}
+
+#dynamicCheck{
+    vertical-align: bottom;
+}
+
+.www{
+    
+}
+
+.clickedListItem{
+    background-color: burlywood;
+}
+
+.unclickedListItem{
+    background-color: white;
+}
